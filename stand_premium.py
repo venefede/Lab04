@@ -2,8 +2,8 @@ from stand import Stand
 
 
 class StandPremium(Stand):
-    def __init__(self, codiceS, superficie, padiglione, prezzo, posizione):
-        super().__init__(codiceS, superficie, padiglione, prezzo)
+    def __init__(self, codiceS, superficie, padiglione, prezzo, posizione, disponibilita):
+        super().__init__(codiceS, superficie, padiglione, prezzo, disponibilita)
         self.posizione = posizione
 
     @property
